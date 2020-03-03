@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Func from './components/first.js';
+import Cc from './components/second';
 //-----------2-29------------------------
 // const time = '2月29日'  
 // const div = (<div className='box'><h2>今天是:{time} JSX初体验</h2></div>)
@@ -44,6 +45,6 @@ class Clsc extends Component {
 }
 
 
-const div = (<div className='box'><Func/><Clsc/></div>)
+const div = (<div className='box'><Cc/><Func/><Clsc/></div>)
 
 ReactDOM.render(div, document.getElementById('root'));
